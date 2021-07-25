@@ -7,6 +7,16 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("Flutter layout demo"),
+        ),
+        body: Container(
+            //Container widget allows customisation of child widget
+            //padding, margins, borders, background color...
+            ),
+      ),
+    );
   }
 }
