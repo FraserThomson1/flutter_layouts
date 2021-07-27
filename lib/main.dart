@@ -12,8 +12,8 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Flutter layout demo"),
         ),
-        //Container, row, column, ListView, Center, Stack are layout widgets
-        //layout widgets have a child/children property
+        // Container, row, column, ListView, Center, Stack are layout widgets
+        // Layout widgets have a child/children property
         body: Container(
           //Container widget allows customisation of child widget
           //padding, margins, borders, background color...
